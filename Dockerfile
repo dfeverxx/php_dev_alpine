@@ -1,4 +1,4 @@
-FROM alpine:alpine:3.7 as base
+FROM alpine:3.7 as base
 
 COPY docker /docker/
 
